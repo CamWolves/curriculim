@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90%;
+  height: 300px;
+  box-sizing: border-box;
+
+}
+
+h1{
+  width: 50%;
+  color: #c93c20;
+  font-family: 'Playfair Display', serif;
+  font-size: 73px;
+  margin: 50px 0 0 190px;
+
+}
+
+img{
+  width: 270px;
+  height: 300px;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 0 15px 900px;
+}
+
+.imagen{
+  box-sizing: border-box;
+  width: 50%;
+  position: absolute;
+  margin: 80px 105px 0 0;
+}
+
+.datos{
+  width: 50%;
+  height: 50%;
+  display: inline-table;
+  font-family: 'Lato', sans-serif;
+  padding: 0 0 0 100px;
+  margin: 20px 0 0 100px;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.contenedor .datos ul li{
+  list-style-type: none;
+}
+
+
+.presentacion{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  font-family: 'Lato', sans-serif;
+  margin: 15px 0 0 195px;
+  font-size: 22px; 
+}
+
+.experiencia h2{
+    color: #f75d5d;
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+    width: 100%;
+    margin: 50px 0 10px 195px;
+}
+
+.exp_uno{
+  margin: 0 0 0 195px;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+}
+
+.exp_uno li{
+  margin: 10px 0 0 50px;
+}
+
+.exp_dos{
+  margin: 50px 0 0 195px;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+}
+.exp_dos li{
+  margin: 10px 0 0 50px;
+}
+
+
+.formacion{
+  margin: 50px 0 0 195px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logros{
+  margin: 50px 0 0 195px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;  
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    color: #adad85;
+    margin-top: 20px;
+}
+
+h3{
+  font-family: 'Spectral', serif;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.formacion h2{
+    color: #f75d5d;
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+}
+
+.logros h2{
+    color: #f75d5d;
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+}
+
+
+.cursos1{
+  width: 50%;
+  position: absolute;
+  margin: 20px 0 0 0; 
+}
+
+.cursos2{
+  width: 50%;
+  position: absolute;
+  margin: 20px 0 0 200px;
+}
+
+.curso{
+  width: 50%;
+  position: absolute;
+  margin: 20px 0 200px 360px;
+}
+
+.logros section .cursos1 ul li{
+  list-style-type: none;
+}
+
+.logros section .cursos2 ul li{
+  list-style-type: none;
+}
+
+.logros section .curso ul li{
+  list-style-type: none;
+}
